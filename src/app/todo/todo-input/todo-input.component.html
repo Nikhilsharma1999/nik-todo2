@@ -3,6 +3,6 @@
         <input matInput placeholder="Enter a todo item" #item>
         <!-- <mat-error *ngIf="item.invalid">{{getErrorMessage()}}</mat-error> -->
     </mat-form-field>   
-    <button mat-stroked-button (click)="addTodo(item.value);item.value=''">Add Todo</button>
+    <button color="warn" mat-stroked-button (click)="addTodo(item.value);item.value=''">Add Todo</button>
 
 
